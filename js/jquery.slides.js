@@ -6,7 +6,7 @@
     pluginName = "slidesjs";
     defaults = {
       width: screen.width,
-      height: 500,
+      height: 30*screen.height/100,
       start: 1,
       navigation: {
         active: true,
