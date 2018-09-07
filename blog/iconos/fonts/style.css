@@ -1,8 +1,8 @@
 @font-face { /*@font-face lo que hace es espeficiar una fuente y la url donde encontrarla*/
 
   font-family: 'icomoon';
-  src:  url('icomoon.eot?pdjg81');
-  src:  url('icomoon.eot?pdjg81#iefix') format('embedded-opentype'),
+  src:  url('https://cdn.rawgit.com/CarlosSeijo/archivosBlog/7151b0a2/blog/iconos/fonts/icomoon.eot?pdjg81');
+  src:  url('https://cdn.rawgit.com/CarlosSeijo/archivosBlog/7151b0a2/blog/iconos/fonts/icomoon.eot?pdjg81#iefix') format('embedded-opentype'),
     url('https://cdn.rawgit.com/CarlosSeijo/archivosBlog/7151b0a2/blog/iconos/fonts/icomoon.ttf?pdjg81') format('truetype'),
     url('https://cdn.rawgit.com/CarlosSeijo/archivosBlog/61f8a815/blog/iconos/fonts/icomoon.woff?pdjg81') format('woff'),
     url('https://cdn.rawgit.com/CarlosSeijo/archivosBlog/7151b0a2/blog/iconos/fonts/icomoon.svg?pdjg81#icomoon') format('svg');
