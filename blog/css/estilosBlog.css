@@ -12,7 +12,7 @@ body{
 background:#f2f2f2;
 }
 
-
+/********************CSS PARA EL SLIDER*******************/
 .main{
 width:100%;  /*que porcentaje de la pantalla quiero que ocupe la foto de cabecera*/
 margin:0px 0px;
@@ -73,6 +73,9 @@ text-decoration:none;
 padding:10px 20px;
 float:right;
 }
+/********************FIN CSS SLIDER*******************/
+
+
 
 
 
@@ -82,7 +85,7 @@ float:right;
 .flexContainerMenuNavegacion{ /*Por norma para usar Flexbox necesito un div que contenga a otros elementos tipo <div>*/
   width:auto;
   height:50px;
-  background:#424242;              /*color de fondo de la barra de navegacion*/
+  background:#202020;             /*color de fondo de la barra de navegacion*/
   display:flex;                      /*para poder empezar a trabajar con Flexbox*/
   justify-content:center;
   justify-content:space-around;
@@ -100,12 +103,20 @@ text-decoration:none;
 }
                
 .elemento1:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
-background:#000000;
+background:rgb(46, 139, 87,0.4);
 -webkit-transform: scale(1.3);
 -ms-transform: scale(1.3);
 transform: scale(1.3);
 border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
+
+
+/*efecto hover*/
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
 }
 
 .elemento2:hover{/*cambio de color + escalado*/
