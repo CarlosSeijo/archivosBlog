@@ -111,7 +111,6 @@ border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
 
 
-/*efecto hover*/
 -webkit-transition: all 300ms ease;
 -moz-transition: all 300ms ease;
 -ms-transition: all 300ms ease;
@@ -120,37 +119,67 @@ transition: all 300ms ease;
 }
 
 .elemento2:hover{/*cambio de color + escalado*/
-background:#000000;
+background:rgb(70, 130, 180,0.4);  /*steelblue*/
 -webkit-transform: scale(1.3);
 -ms-transform: scale(1.3);
 transform: scale(1.3);
 border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
+
+
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
 }
+
 .elemento3:hover{
-background:#000000;
+background:rgb(144, 12, 63,0.4);/*#900C3F*/
 -webkit-transform: scale(1.3);
 -ms-transform: scale(1.3);
 transform: scale(1.3);
 border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
+
+
+-webkit-transition: all 300ms ease;  
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
 }
+
 .elemento4:hover{
-background:#000000;
+background:rgb(47, 79, 79,0.4);
 -webkit-transform: scale(1.3);
 -ms-transform: scale(1.3);
 transform: scale(1.3);
 border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
+
+
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
 }
 
 .elemento5:hover{
-background:#000000;
+background:rgb(218, 165, 32,0.4);
 -webkit-transform: scale(1.3);
 -ms-transform: scale(1.3);
 transform: scale(1.3);
 border-radius:20px; /*redondea las esquinas de la caja*/
 z-index:200;
+
+
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
 }
 
 /***************FIN Menú de navegacion. PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
