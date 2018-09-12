@@ -171,7 +171,8 @@
         $.each(new Array(this.data.total), function(i) {
           var paginationItem, paginationLink;
           paginationItem = $("<li>", {
-            "class": "slidesjs-pagination-item"
+            "class": "slidesjs-pagination-item":i,
+            html: i + 1
           }).appendTo(pagination);
           paginationLink = $("<a>", {
             href: "#",
