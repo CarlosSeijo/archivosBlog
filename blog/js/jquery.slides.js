@@ -175,8 +175,7 @@
           }).appendTo(pagination);
           paginationLink = $("<a>", {
             href: "#",
-            "data-slidesjs-item": i,
-            html: i + 1
+            "data-slidesjs-item ": icon-radio-unchecked
           }).appendTo(paginationItem);
           return paginationLink.click(function(e) {
             e.preventDefault();
