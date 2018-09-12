@@ -166,7 +166,7 @@
       }
       if (this.options.pagination.active) {
         pagination = $("<ul>", {
-          "class": "slidesjs-pagination icon-facebook"
+          "class": "slidesjs-pagination"
         }).appendTo($element);
         $.each(new Array(this.data.total), function(i) {
           var paginationItem, paginationLink;
