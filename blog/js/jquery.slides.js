@@ -171,12 +171,12 @@
         $.each(new Array(this.data.total), function(i) {
           var paginationItem, paginationLink;
           paginationItem = $("<li>", {
-            "class": "slidesjs-pagination-item":i,
-            html: i + 1
+            "class": "slidesjs-pagination-item"
           }).appendTo(pagination);
           paginationLink = $("<a>", {
             href: "#",
-            "data-slidesjs-item ": icon-radio-unchecked
+            "data-slidesjs-item": i,
+            html: i + 1
           }).appendTo(paginationItem);
           return paginationLink.click(function(e) {
             e.preventDefault();
