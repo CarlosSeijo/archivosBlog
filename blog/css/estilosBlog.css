@@ -82,6 +82,7 @@ float:right;
                                                    
 /***************Menú de navegacion: PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
 
+
 .flexContainerMenuNavegacion{ /*Por norma para usar Flexbox necesito un div que contenga a otros elementos tipo <div>*/
   background:#202020;             /*color de fondo de la barra de navegacion*/
   width:auto;
@@ -89,6 +90,8 @@ float:right;
   display:flex;                      /*para poder empezar a trabajar con Flexbox*/
   justify-content:space-around; /*elementos equieespaciados con espacio al comienzo y al final*/
 }
+
+
 
 nav div div a p{
   font-size:22px;
