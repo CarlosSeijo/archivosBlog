@@ -114,68 +114,59 @@ align-items:center; /*los elementos de la caja contenedora se sitúan en la linea
 justify-content:center;  /*coloca los elementos en el centro de la caja contenedora que en este caso se llama elemento1*/
 }
 
-.elemento2:hover{/*cambio de color + escalado*/
-background:rgb(70, 130, 180,0.4);  /*steelblue*/
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
-border-radius:20px; /*redondea las esquinas de la caja*/
-z-index:200;
-
-
--webkit-transition: all 300ms ease;
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
+.elemento2{
+width:122px;
+height:70px;
+display:flex;
+align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento2*/
 }
 
-.elemento3:hover{
-background:rgb(144, 12, 63,0.4);/*#900C3F*/
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
-border-radius:20px; /*redondea las esquinas de la caja*/
-z-index:200;
-
-
--webkit-transition: all 300ms ease;  
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
+.elemento3{
+width:151px;
+height:70px;
+display:flex;
+align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento3*/
 }
 
-.elemento4:hover{
-background:rgb(47, 79, 79,0.4);
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
-border-radius:20px; /*redondea las esquinas de la caja*/
-z-index:200;
-
-
--webkit-transition: all 300ms ease;
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
+.elemento4{
+width:132px;
+height:70px;
+display:flex;
+align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento4*/
 }
 
-.elemento5:hover{
-background:rgb(218, 165, 32,0.4);
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
-border-radius:20px; /*redondea las esquinas de la caja*/
-z-index:200;
+
+.elemento5{
+width:113px;
+height:70px;
+display:flex;
+align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento5*/
+}
 
 
--webkit-transition: all 300ms ease;
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
+.elemento1:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+  background:rgb(46, 139, 87,0.4);
+}
+
+.elemento2:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+  background:rgb(46, 139, 87,0.4);
+}
+
+.elemento3:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+  background:rgb(46, 139, 87,0.4);
+}
+
+.elemento4:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+  background:rgb(46, 139, 87,0.4);
+}
+
+
+.elemento5:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+  background:rgb(46, 139, 87,0.4);
 }
 
 /***************FIN Menu de navegacion. PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
@@ -204,8 +195,9 @@ box-shadow: 10px 10px #424242;  /*sombreado para el video*/
 
 
 
-/******************CSS PARA EL FOOTER********************/
 
+
+/******************CSS PARA EL FOOTER********************/
 footer{
   background:#202020;
   display:flex;
