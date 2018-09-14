@@ -80,43 +80,38 @@ float:right;
 
 
                                                    
-/***************MenÃº de navegacion: PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
+/***************Menu de navegacion: PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
 
 
 .flexContainerMenuNavegacion{ /*Por norma para usar Flexbox necesito un div que contenga a otros elementos tipo <div>*/
   background:#202020;             /*color de fondo de la barra de navegacion*/
   width:auto;
-  height:80px; /*ancho de la barra de navegacion*/
+  height:70px; /*ancho de la barra de navegacion*/
   display:flex;                      /*para poder empezar a trabajar con Flexbox*/
-  justify-content:space-around; /*elementos equieespaciados con espacio al comienzo y al final*/
+  align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+  justify-content:space-around;  /*elementos equieespaciados con espacio al comienzo y al final*/  
 }
+
 
 nav div div a p{
   font-size:22px;
   color:white;
-  padding:16px 50px;
+  padding:0px 0px;
   font-family: "Comic Sans MS",bold, sans-serif;
   font-style:"Comic Sans MS";
 }
-
 
 nav div div a{  /*eliminamos el subrayado por defecto que biene con el link <a> </a>*/
 text-decoration:none;
 }
               
-.elemento1:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
-  background:rgb(46, 139, 87,0.4);
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-  border-radius:20px; /*redondea las esquinas de la caja*/
-  z-index:200;
-
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+.elemento1{
+width:120px;
+height:70px;
+padding:0px 0px;;
+display:flex;
+align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
+justify-content:center;  /*coloca los elementos en el centro de la caja contenedora que en este caso se llama elemento1*/
 }
 
 .elemento2:hover{/*cambio de color + escalado*/
@@ -183,7 +178,7 @@ z-index:200;
 transition: all 300ms ease;
 }
 
-/***************FIN MenÃº de navegacion. PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
+/***************FIN Menu de navegacion. PRINCIPAL SENSORES PROYECTOS SOBRE MI *******************************/
 
 
 
