@@ -147,7 +147,7 @@ align-items:center; /*los elementos de la caja contenedora se sitúan en la linea
 justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento5*/
 }
 
-.elemento2 a p{     /*Para la pagina principal no hay HOVER. mientras este en ella aparecera seleccionado*/
+.elemento5 a p{     /*Para la pagina principal no hay HOVER. mientras este en ella aparecera seleccionado*/
 background:#ffffff;
 color:black;
 border-top-left-radius:20px;
@@ -163,6 +163,14 @@ border-top-left-radius:20px;
 border-top-right-radius:20px;
 }
 
+.elemento2 a p:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
+background:#ffffff;
+color:black;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+
+
 .elemento3 a p:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
 background:#ffffff;
 color:black;
@@ -172,14 +180,6 @@ border-top-right-radius:20px;
 
 
 .elemento4 a p:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
-background:#ffffff;
-color:black;
-border-top-left-radius:20px;
-border-top-right-radius:20px;
-}
-
-
-.elemento5 a p:hover{     /*Efectos al pasar el mouse por el menu de navegacion*/
 background:#ffffff;
 color:black;
 border-top-left-radius:20px;
