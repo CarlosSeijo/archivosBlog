@@ -1,0 +1,122 @@
+
+
+
+
+
+.containerventana{
+        background:#2b2925;
+        width:300px;
+        height:190px;   
+        display:none;   
+        position:absolute;
+        top:90%;
+        right:70%;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 7px double #000000;
+
+}
+
+
+
+
+.containercabecera {
+width:100%;
+height:40px;
+background:black;
+display:flex;
+align-items:center; /*alineamos respecto el eje vertical*/
+justify-content:center; /*alineamos respecto el eje horizontal*/
+
+
+
+
+}
+/*Para activar el modo flexbox hay que utilizar sobre el elemento contenedor la propiedad display que vimos en un capítulo previo, 
+  y especificar el valor flex o inline-flex dependiendo de como queramos que se comporte el contenedor: si como un elemento en línea, 
+    o como un elemento en bloque.
+
+inline-flex: 	Establece un contenedor de ítems flexible en línea, de forma equivalente a inline-block.
+flex: 	Establece un contenedor de ítems flexible en bloque, de forma equivalente a block.*/
+
+
+    .containercabecera div {
+        
+          font-size:21px;
+          color:white;
+          font-family: "Comic Sans MS",bold, sans-serif;
+          font-style:"Comic Sans MS";
+          font-weight:bold;
+          background:black;
+          padding:0px 80px;        
+                
+    }
+
+    .containercabecera a {
+        width:32px;
+        height:32px;
+        background:black;
+        
+    }
+
+/*.containerelementos {
+background:yellow;
+}*/
+
+.mielem1 a {
+    width:100%;
+    height:70px;
+     padding: 2px 2px;
+    /*background:red;*/
+    display:inline-flex; /*disponemos lasa cajas en serie una detras de otra*/
+    align-items:center;
+    color:white;
+    text-decoration:none; /*con esta linea elimino el molesto subrayado que aparece con el tag <a>*/
+
+
+    font-size:15px;
+    color:white;
+    font-family: "Comic Sans MS",bold, sans-serif;
+    font-style:"Comic Sans MS";
+    //font-weight:bold;
+}
+
+
+
+.mielem2 a {
+    width:100%;
+    height:70px;
+    padding: 2px 2px;    
+    /*background:green;*/
+    display:inline-flex; /*disponemos lasa cajas en serie una detras de otra*/
+    align-items:center;
+    color:white;
+    text-decoration:none; /*con esta linea elimino el molesto subrayado que aparece con el tag <a>*/
+
+    font-size:15px;
+    color:white;
+    font-family: "Comic Sans MS",bold, sans-serif;
+    font-style:"Comic Sans MS";
+    //font-weight:bold;
+}
+
+
+
+
+
+
+
+/*efectos hover para los elementos*/
+
+    .mielem1:hover { 
+     background:steelblue;  
+     padding: 0px 20px;  /*este pading es para crear el efecto de movimiento*/
+    }
+
+
+     .mielem2:hover {
+          background:steelblue; 
+          padding: 0px 20px;  /*este pading es para crear el efecto de movimiento*/      
+    }
+
