@@ -200,12 +200,14 @@ border:none;
 
 
 
-#fotoibiza {
+#fotoibiza { /*dimensiones fijadas en el hmtl*/
 border-radius: 8px 8px;
 box-shadow: 10px 10px 9px 0px rgba(56,55,56,1);
 }
-#sobremi {
 
+#sobremi {
+width:700px;
 padding: 0px 30px;
 font-family:'Times New Roman', Times, serif;
+text-align:justify; /*justificar texto*/
 }

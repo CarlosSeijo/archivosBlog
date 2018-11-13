@@ -192,100 +192,16 @@ border-top-right-radius:20px;
 
 
 
+.proyectos {
 
-/*********************CSS DEL VIDEO DE LA PAGINA PRINCIPAL*****************/
-
-.containerVideo{
 display:flex;
-justify-content:center;
-padding: 100px 0px;
 
 }
 
-section div iframe {
-width:50%;
-height:400px;
-border-radius: 20px; /*para redondear las esquinas del video*/
-box-shadow: 10px 10px #424242;  /*sombreado para el video*/
-}
-/*******FIN CSS VIDEO******/
 
 
-
-
-
-
-
-/******************CSS PARA EL FOOTER********************/
-footer{
-  background:#202020;
-  display:flex;
-  flex-direction:column; /*organizar las cajas hijas en columna*/
-  widht:100%; 
-  color:white;
-}
-
-.containerfooter {
-  padding:20px;
-  display:flex;
-  flex-direction:row; /*direccion en la cual se van a organizar nuestras cajas. row, colum,row-reverse,column-reverse*/
-  justify-content:space-around; /*Todos los elementos los distribuye entre el ancho del contenedor padre dejando un espacio   	y  lo acomoda proporcionalmente*/
-}
-
-.masinformacion{max-width:30%;}
-.masinformacion div p{padding:10px 0px;}
-
-.redessociales{
-  max-width:30%;
-  display:flex; 
-  flex-direction:column;
-}
-
-
-.facebook{padding:10px 0px;display:flex; flex-direction:row;}  /*caja que incluye logo + "Facebook"*/
-.icon-facebook{font-size:30px; }
-.facebook a p{padding:0px 10px;color:white;}
-.facebook a{text-decoration:none;} /*eliminar el subrayado por defecto del enlace*/
-
-.twitter{padding:10px 0px;display:flex; flex-direction:row;} /*caja que incluye logo + "Twitter"*/
-.icon-twitter{font-size:30px;}
-.twitter a p{padding:0px 10px;color:white;}
-.twitter a{text-decoration:none;}
-
-
-.instagram{padding:10px 0px;display:flex; flex-direction:row;} /*caja que incluye logo + "Instagram"*/
-.icon-instagram{font-size:30px;}  /*dimensionar el tamaño del logo*/
-.instagram a p{padding:0px 10px;}    /*para alinear el logo*/
-.instagram a{text-decoration:none;color:white;} /*eliminar el subrayado por defecto del enlace*/
-
-.informacioncontacto{
-  max-width:30%;
-}
-
-.direccion{display:flex; flex-direction:row;}
-.icon-home3{font-size:30px;}
-
-.movil{display:flex; flex-direction:row;}
-.icon-mobile{font-size:30px;}
-
-.correo{padding:0px 5px;display:flex; flex-direction:row;}
-.icon-envelope{font-size:30px;}
-
-.datos{padding:8px 0px;}
-.movil{padding:20px 0px;}
-.correo{padding:0px 5px;}
-
-.direccion p{padding: 8px 6px;}
-.movil p{padding:5px 5px;}
-.cajatextocorreo p{padding:4px 10px;}
-
-
-              /****pie del footer****/
-.piefooter{
-background:#000000;
-padding:10px;
-widht:100%;
-display:flex; 
-flex-flow:wrap;
-justify-content: space-between;   /* Distribuir items uniformemente. el primer item al inicio, el último al final */
-}
+    .proyectos figure {
+     width
+    
+    
+    }
