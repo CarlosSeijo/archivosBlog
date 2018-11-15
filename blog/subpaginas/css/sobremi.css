@@ -50,7 +50,7 @@ height:400px;
 .slidesjs-pagination li a{
 display:block;
 padding:10px 20px;
-color:#ffff;
+color:#FFF;
 text-decoration:none;
 border-radius:20px;
 }
@@ -68,7 +68,7 @@ background:#000;
 .slidesjs-navigation{ /*Actua sobre las cajas "Anterior" y "Siguiente" las quito porque no me gustan. asi que display=none*/
 display:none;
 background:#000000;
-color:#fff;
+color:#FFF;
 text-decoration:none;
 padding:10px 20px;
 float:right;
@@ -205,9 +205,11 @@ border-radius: 8px 8px;
 box-shadow: 10px 10px 9px 0px rgba(56,55,56,1);
 }
 
-#sobremi {
-width:700px;
+#sobremi p{
+width:800px;
 padding: 0px 30px;
-font-family:'Times New Roman', Times, serif;
+font-family: Coming Soon;
+font-size:15px;
 text-align:justify; /*justificar texto*/
+
 }
