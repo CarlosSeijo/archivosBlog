@@ -206,10 +206,15 @@ box-shadow: 10px 10px 9px 0px rgba(56,55,56,1);
 }
 
 #sobremi p{
-width:800px;
-padding: 0px 30px;
 font-family: Coming Soon;
 font-size:15px;
 text-align:justify; /*justificar texto*/
+
+}
+
+#sobremi {
+width:auto;
+padding: 0px 40px;
+
 
 }

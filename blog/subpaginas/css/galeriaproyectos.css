@@ -1,4 +1,9 @@
 
+
+
+
+
+
 .containerproyectos{ /*Establecemos dimensiones del contenedor principal*/
 background:white;
 width:1000px;
@@ -11,9 +16,9 @@ position:absolute;
 
 figure{ /*contenedor de los elementos de la galería*/
     width: 300px;
-    height: 300px;
+    height: 250px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color:black;
     position: relative;
     overflow: hidden;
@@ -21,7 +26,7 @@ figure{ /*contenedor de los elementos de la galería*/
 
 }
 
-figure:hover h1{
+figure:hover h1{    
     opacity: 1;
 }
 
