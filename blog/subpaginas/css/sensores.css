@@ -50,7 +50,7 @@ height:400px;
 .slidesjs-pagination li a{
 display:block;
 padding:10px 20px;
-color:#ffff;
+color:#fff;
 text-decoration:none;
 border-radius:20px;
 }
@@ -97,7 +97,6 @@ nav div div a p{
   color:white;
   padding:0px 0px;
   font-family: "Comic Sans MS",bold, sans-serif;
-  font-style:"Comic Sans MS";
   font-weight:bold;
 }
 
