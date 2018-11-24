@@ -1,6 +1,5 @@
 
 .container-gallery{ /*Establecemos dimensiones del contenedor principal*/
-background:white;
 padding:20px;
 width:700px;
 position:absolute;
@@ -14,9 +13,6 @@ right:25%;
     flex-wrap: wrap;
     
 }
-
-
-
 
 
 figure{ /*contenedor de los elementos de la galería*/

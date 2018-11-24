@@ -84,7 +84,7 @@ float:right;
 
 
 .flexContainerMenuNavegacion{ /*Por norma para usar Flexbox necesito un div que contenga a otros elementos tipo <div>*/
-  background:#202020;             /*color de fondo de la barra de navegacion*/
+  background:#000;             /*color de fondo de la barra de navegacion*/
   width:auto;
   height:70px; /*ancho de la barra de navegacion*/
   display:flex;                      /*para poder empezar a trabajar con Flexbox*/
