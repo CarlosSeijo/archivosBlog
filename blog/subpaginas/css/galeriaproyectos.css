@@ -2,13 +2,13 @@
 
 
 
-
-
 .containerproyectos{ /*Establecemos dimensiones del contenedor principal*/
 background:white;
-padding:50px;
-width:1000px;
+padding:50px 0px;
+width:100%;
 position:absolute;
+display:flex; /*para activar flexbox*/
+justify-content:center; /*alinear el contenido de esta caja en el centro del eje X (horizontal)*/
 
 }
 
@@ -16,14 +16,14 @@ position:absolute;
 
 
 figure{ /*contenedor de los elementos de la galería*/
-    width: 350px;
+    width: 280px;
     height: 225px;
     border-style: solid;
     border-width: 2px;
     border-color:black;
     position: relative;
     overflow: hidden;
-    margin: 30px;
+    margin: 20px; /*margen entre rectangulos de la galeria*/
 
 }
 
