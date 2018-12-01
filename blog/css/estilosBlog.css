@@ -232,7 +232,7 @@ footer{
 }
 
 .masinformacion{max-width:30%;}
-.masinformacion div p{padding:10px 0px;}
+.masinformacion div p{padding:10px 0px; text-align: justify;}
 
 .redessociales{
   max-width:30%;
@@ -282,6 +282,7 @@ footer{
               /****pie del footer****/
 .piefooter{
 background:#000000;
+padding:10px 0px;
 width:100%;
 display:flex; 
 flex-flow:wrap;
