@@ -176,7 +176,7 @@
           paginationLink = $("<a>", {
             href: "#",
             "data-slidesjs-item": i,
-            html: i + 1
+            html: " "
           }).appendTo(paginationItem);
           return paginationLink.click(function(e) {
             e.preventDefault();
