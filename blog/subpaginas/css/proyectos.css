@@ -39,7 +39,7 @@ height:400px;
   position:absolute; /*Colocamos el container en el origen que es el margen superior izquierdo*/
   top:350px;   /*bajamos 350px desde el origen*/
   z-index:900;  /*para traer al frente la caja y dejar la foto al fondo*/
-  
+  border-radius: 20px;
 }
 
 
@@ -49,10 +49,10 @@ height:400px;
 
 .slidesjs-pagination li a{
 display:block;
-padding:10px 20px;
+padding:20px 20px;
 color:#FFF;
 text-decoration:none;
-border-radius:20px;
+border-radius:30px;
 }
 
 
