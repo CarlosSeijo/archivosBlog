@@ -286,5 +286,10 @@ padding:10px 0px;
 width:100%;
 display:flex; 
 flex-flow:wrap;
-justify-content: space-between;   /* Distribuir items uniformemente. el primer item al inicio, el último al final */
+justify-content: space-between;   /* Distribuir items uniformemente. el primer item al inicio, el ultimo al final */
+}
+
+
+@media (max-width: 599px) { 
+   .piefooter{background:red}
 }
