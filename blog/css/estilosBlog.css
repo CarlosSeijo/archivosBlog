@@ -290,6 +290,3 @@ justify-content: space-between;   /* Distribuir items uniformemente. el primer i
 }
 
 
-@media (max-width: 599px) { 
-   .piefooter{background:red}
-}
