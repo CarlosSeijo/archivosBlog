@@ -202,8 +202,8 @@ padding: 100px 0px;
 }
 
 section div iframe {
-width:50%;
-height:400px;
+width:40%;
+height:300px;
 border-radius: 20px; /*para redondear las esquinas del video*/
 box-shadow: 10px 10px #424242;  /*sombreado para el video*/
 }
