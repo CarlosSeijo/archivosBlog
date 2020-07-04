@@ -5,7 +5,6 @@
 margin:0;
 padding:0;
 font-family:sans-serif;
-@charset "UTF-8";
 }
 
 
@@ -206,7 +205,7 @@ box-shadow: 10px 10px 9px 0px rgba(56,55,56,1);
 }
 
 #sobremi p{
-font-family: Coming Soon;
+font-family:Coming Soon;
 font-size:15px;
 text-align:justify; /*justificar texto*/
 
