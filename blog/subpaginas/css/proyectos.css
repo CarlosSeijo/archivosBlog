@@ -109,6 +109,7 @@ width:120px;
 height:70px;
 padding:0px 0px;
 display:flex;
+font-family:"Comic Sans MS",bold, sans-serif;
 align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
 justify-content:center;  /*coloca los elementos en el centro de la caja contenedora que en este caso se llama elemento1*/
 }
@@ -117,6 +118,7 @@ justify-content:center;  /*coloca los elementos en el centro de la caja contened
 width:122px;
 height:70px;
 display:flex;
+font-family:"Comic Sans MS",bold, sans-serif;
 align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
 justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento2*/
 }
@@ -125,6 +127,7 @@ justify-content:center;  /*coloca los elementos centrados dentro de la caja cont
 width:151px;
 height:70px;
 display:flex;
+font-family:"Comic Sans MS",bold, sans-serif;
 align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
 justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento3*/
 }
@@ -133,6 +136,7 @@ justify-content:center;  /*coloca los elementos centrados dentro de la caja cont
 width:132px;
 height:70px;
 display:flex;
+font-family:"Comic Sans MS",bold, sans-serif;
 align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
 justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento4*/
 }
@@ -142,11 +146,13 @@ justify-content:center;  /*coloca los elementos centrados dentro de la caja cont
 width:113px;
 height:70px;
 display:flex;
+font-family:"Comic Sans MS",bold, sans-serif;
 align-items:center; /*los elementos de la caja contenedora se sitúan en la linea central */
 justify-content:center;  /*coloca los elementos centrados dentro de la caja contenedora que en este caso se llama elemento5*/
 }
 
 .elemento4 a p{     /*Para la pagina principal no hay HOVER. mientras este en ella aparecera seleccionado*/
+font-family:"Comic Sans MS",bold, sans-serif;
 background:#ffffff;
 color:black;
 border-top-left-radius:20px;
